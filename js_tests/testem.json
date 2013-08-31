@@ -1,0 +1,8 @@
+{
+  "src_files": [
+    "vendor/jquery.js",
+    "app/app.js",
+    "test_*.js"
+  ],
+  "before_tests": "ln -fhs ../vendor/assets/javascripts vendor; ln -fhs ../app/assets/javascripts app"
+}
